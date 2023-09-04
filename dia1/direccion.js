@@ -15,7 +15,7 @@ async function main(){
         //                                     "last_name VARCHAR(50))";
 
         // let sql = "INSERT INTO marks (student_id, subject_id, date, mark) " +
-        //                                 "VALUES (10, 10, \"2023-08-30\",7)"
+                                        // "VALUES (10, 10, \"2023-08-30\",7)"
 
         // let sql = "DELETE FROM grupos"
 
@@ -40,7 +40,7 @@ async function main(){
     
     // let sql = "DELETE FROM marks WHERE date < \"2013-09-02\""
     
-    let sql = "UPDATE marks SET mark=5 WHERE mark < 5"
+    // let sql = "UPDATE marks SET mark=5 WHERE mark < 5"
 
         let [result] = await connection.query(sql);
         console.log(result);
